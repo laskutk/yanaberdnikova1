@@ -11,7 +11,7 @@ body {
 }
 
 a {
-  color: lightyellow; 
+  color: #C71585; 
 }
 
 a:visited {
@@ -143,7 +143,7 @@ header {
 }
 
 .landing-page .content .info h1 {
-  color: white;
+  color: #000000;
   font-size: 38px;
   margin-left: 120px;
 }
@@ -152,7 +152,7 @@ header {
   margin: 0;
   line-height: 1.6;
   font-size: 20px;
-  color: white;
+  color: #000000;
   margin-left: 120px;
 }
 
