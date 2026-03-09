@@ -11,11 +11,11 @@ body {
 }
 
 a {
-  color: lightyellow; /* исправлено */
+  color: lightyellow; 
 }
 
 a:visited {
-  color: lightpink; /* исправлено */
+  color: lightpink; 
 }
 
 a:hover {
@@ -172,7 +172,7 @@ header {
 }
 
 .landing-page .content .info .button:hover {
-  background-color: #ff69b4; /* немного ярче при наведении */
+  background-color: #ff69b4;
 }
 
 .landing-page .content .image img {
