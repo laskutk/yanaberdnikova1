@@ -1,17 +1,21 @@
 box-sizing: border-box;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   background: linear-gradient(120deg, #FFFFE0, #FFFACD, #FFEFD5);
 }
 
 a {
-  color: light yellow;
+  color: lightyellow; /* исправлено */
 }
 
 a:visited {
-  color: light pink;
+  color: lightpink; /* исправлено */
 }
 
 a:hover {
@@ -44,7 +48,7 @@ ul {
   }
 }
 
-@media (min-width: 767px) {
+@media (min-width: 1200px) {
   .container {
     width: 1170px;
   }
@@ -96,7 +100,7 @@ header {
 
 .landing-page header .links li {
   margin-left: 15px;
-  color: light pink;
+  color: lightpink;
   cursor: pointer;
   transition: .3s;
 }
@@ -111,7 +115,7 @@ header {
   border-radius: 20px;
   padding: 10px 20px;
   color: #FFF;
-  background-color: light yellow;
+  background-color: lightyellow;
 }
 
 .landing-page .content .container {
@@ -152,16 +156,23 @@ header {
   margin-left: 120px;
 }
 
-.landing-page .content .info button {
+.landing-page .content .info .button {
+  display: inline-block;
+  text-decoration: none;
   border: 0;
   border-radius: 20px;
   padding: 20px 45px;
   margin-top: 30px;
   cursor: pointer;
   color: #FFF;
-  background-color: light pink;
+  background-color: lightpink;
   margin-left: 120px;
   font-size: 20px;
+  transition: 0.3s;
+}
+
+.landing-page .content .info .button:hover {
+  background-color: #ff69b4; /* немного ярче при наведении */
 }
 
 .landing-page .content .image img {
